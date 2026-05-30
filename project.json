@@ -1,0 +1,24 @@
+{
+  "overview": "A comprehensive school website featuring a hero homepage, about page, academics, news and events feed, staff directory, and contact form. Fully responsive with backend storage for news and contact submissions.",
+  "features": [
+    "Hero homepage with school branding and CTAs",
+    "About page with mission and school stats",
+    "Academics page with course cards and curriculum by grade",
+    "News & Events feed with categories and detail views",
+    "Staff directory with search and department filtering",
+    "Contact form with backend storage",
+    "Sticky header with mobile hamburger menu",
+    "Responsive footer with links and contact info"
+  ],
+  "category": "education",
+  "tags": [
+    "school",
+    "education",
+    "website",
+    "news",
+    "contact",
+    "staff-directory",
+    "academics"
+  ],
+  "last_updated": "2026-04-13T12:04:50.253Z"
+}

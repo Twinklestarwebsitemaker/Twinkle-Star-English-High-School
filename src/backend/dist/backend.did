@@ -1,0 +1,20 @@
+type Result = 
+ variant {
+   err: text;
+   ok: nat;
+ };
+type NewsItem = 
+ record {
+   category: text;
+   content: text;
+   date: int;
+   excerpt: text;
+   id: nat;
+   imageUrl: text;
+   title: text;
+ };
+service : {
+  addContactSubmission: (name: text, email: text, subject: text, message:
+   text, inquiryType: text) -> (Result);
+  getNews: () -> (vec NewsItem) query;
+}
